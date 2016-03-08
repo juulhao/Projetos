@@ -100,8 +100,8 @@ endfor;
 			?>
 
                 <div class="col-md-3">
-                	
-                    <a href="<?php echo get_permalink( $ultima->ID ); ?>" title="<?php echo $post->post_title; ?>"><img class="teste-image" src="<?php echo $post_thumb_src[0]; ?>"></a>
+
+                    <!--<a href="<?php echo get_permalink( $ultima->ID ); ?>" title="<?php echo $post->post_title; ?>"><img class="teste-image" src="<?php echo $post_thumb_src[0]; ?>"></a>-->
                     <h2><a href="<?php echo get_permalink( $post->ID ); ?>" title="<?php echo $post->post_title; ?>"><?php echo $post->post_title; ?></a></h2>
                     <ul class="blog-info">
                         <li><i class="fa fa-calendar"></i> <?php $post_data = date_create($post->post_date); echo date_format($post_data, 'd/m/Y'); ?></li>
