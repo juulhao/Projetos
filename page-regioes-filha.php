@@ -100,7 +100,7 @@ endfor;
 			?>
 
                 <div class="col-md-3">
-                	<h2>Veja mais</h2>
+                	
                     <a href="<?php echo get_permalink( $ultima->ID ); ?>" title="<?php echo $post->post_title; ?>"><img class="teste-image" src="<?php echo $post_thumb_src[0]; ?>"></a>
                     <h2><a href="<?php echo get_permalink( $post->ID ); ?>" title="<?php echo $post->post_title; ?>"><?php echo $post->post_title; ?></a></h2>
                     <ul class="blog-info">
